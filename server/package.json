@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "(npm install) && (cd ../client-admin && npm install && npm run build) && (cd ../client-customer && npm install && npm run build)",
+    "build": "(yarn install) && (cd ../client-admin && yarn install && yarn build) && (cd ../client-customer && yarn install && yarn build)",
     "start": "node index.js"
   },
   "keywords": [],
